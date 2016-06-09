@@ -1,0 +1,162 @@
+/*!
+Theme Name: BHS WordPress Theme
+Author: Jay, Joel, & Lauren
+Author URI: http://jayevanjohnson.com/
+Description:
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+*/a{outline:0;font-size:12px;color:#0c2745;text-decoration:none}
+a:hover{color:#203e59;text-decoration:none}
+a:visited{text-decoration:none;color:#0c2745}
+#active a{color:#e07c28;text-decoration:none;margin-left:-7px}
+#active a:hover{color:#203e59}
+*{box-sizing:border-box}
+*:focus{outline:0}
+body{position:relative;font-family:"Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;background:#233e5f;background:linear-gradient(to top,#233e5f,#1c2836);color:#6c6762}
+li{font-size:11px;list-style:none}
+h1{font-size:26px;font-family:serif}
+h2{font-size:24px;padding-top:15px;color:#e07c28;font-family:serif}
+h3{font-size:24px}
+img.facebook-mode{width:100%;height:auto}
+img.img-responsive{width:100%;height:auto;border-radius:2px}
+hr{margin-top:10px;margin-bottom:10px;border:0;border-top:1px solid #eee}
+.navbar{border-radius:0;min-height:50px;margin-bottom:20px;border:1px solid transparent}
+.navbar-default{background-color:#f8f8f8;border-color:#e7e7e7;height:30px}
+.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:focus,.navbar-default .navbar-nav>.active>a:hover{color:#555;background-color:#e7e7e7}
+.navbar-nav{margin-top:-8px}
+.navbar-nav>li>a{padding-top:15px;padding-bottom:15px;line-height:20px}
+.nav>li>a{position:relative;display:block;padding:14px 15px;z-index:999}
+.menu-item>a{background-color:#f8f8f8}
+.current-menu-item>a{background:#e7e7e7}
+article.facebook-entry{background:#2b2b2b url(../img/bg-facebook-post.png) no-repeat;width:297px;height:321px;float:right;margin-top:5px}
+article.facebook-entry h3{background:#fff url(../img/header-facebook.png) no-repeat;width:293px;height:43px;margin-top:50px}
+article.facebook-entry h4{color:#282424;padding-left:30px;padding-top:5px}
+article.facebook-entry h5{color:#f9a634;padding-left:30px;padding-top:10px}
+article.facebook-entry h5 span{color:#c2c1c0}
+article.facebook-entry p{padding-left:30px;padding-top:10px;font-size:11px;padding-right:30px}
+article p{font-size:12px;line-height:1.4em}
+article a{font-size:12px}
+article h3{font-size:18px;color:#337ab7}
+article hr{margin-top:0;margin-bottom:0}
+.aside-box p{font-size:12px;line-height:1.4em}
+.aside-box img{float:left;margin-top:8px;padding-left:10px}
+hr.article-hr{margin-top:0;margin-bottom:0}
+.article-nav{background:0}
+.dateText{color:#f99b15;font-size:11px}
+.authorText{color:#e4e2e3;font-size:11px}
+aside{width:291px;margin-right:12px;float:right;height:294px}
+aside h2.since1973{background:transparent url(../img/heading-since-1973.png) no-repeat;width:152px;height:42px;margin:16px 10px 0 140px;padding:10px;position:inherit}
+.aside-box.boxed{background-color:#f4f3f3;padding:5px;border:1px solid #eee;margin-bottom:10px}
+a.moreinfo{text-decoration:underline;color:#173f6b;float:right}
+.boxed p{overflow:hidden}
+.get-involved{display:none}
+.fbimg{width:100%;max-width:238px;max-height:auto}
+.donate-btn-btm img{width:100%;align:center;max-width:242px;max-height:auto;padding-bottom:20px}
+.fa-li{position:relative;top:0;left:0}
+.aside-box li{margin-left:-40px}
+.main-content{float:left;background-color:#fff;line-height:1.5em}
+.main-content p{padding:10px}
+p.remove-left-padding{padding:10px 10px 10px 0}
+.top-nav{font-size:.9em;padding-left:125px}
+.top-nav li{padding-top:25px;float:left}
+.top-nav span{padding:0 10px;color:#fff}
+.top-nav a{color:#fff;text-decoration:none}
+nav{margin:0 auto;background-color:#fff}
+.navbar-nav{width:100%;text-align:center}
+.navbar-nav>li{float:none;display:inline-block}
+.navbar-toggler{float:right}
+header{position:relative;background-color:#666}
+header .facebook-icon{position:absolute;top:10px;left:355px;padding:9px 10px 0 15px}
+header .donate{position:absolute;top:17px;right:0}
+header .logo{position:absolute;top:-48px;left:10px;z-index:99;animation:mymove 1.2s;animation-timing-function:ease}
+@keyframes mymove{from{top:-300px}
+to{bottom:0}
+}header{position:relative;background-color:#666}
+header .facebook-icon{position:absolute;top:10px;left:355px;padding:9px 10px 0 15px}
+header .donate{position:absolute;top:17px;right:0}
+header .logo{position:absolute;top:-48px;left:10px;z-index:99}
+.misc-items{height:56px;background-color:#0c2745;position:relative}
+.search-container{position:absolute;top:15px;left:645px;background:transparent url("images/search-box.png") no-repeat;width:258px;height:37px}
+.search-container .search-input{background-color:transparent;border:medium none;color:#999;float:left;font-size:.9em;height:auto;margin:8px 5px 0 12px;width:185px}
+.search-container .search-submit{margin:5px 0 0 10px;width:25px}
+.breadcrumb{padding:0 5px;margin-bottom:20px;list-style:none;background-color:#fff;border-radius:0;float:right}
+.breadcrumb li{margin-left:0}
+.breadcrumb>li+li:before{padding:0 5px;color:#ccc;content:">"}
+h1.main-header{float:left;margin:0}
+footer{text-align:center;padding-top:10px;padding-bottom:30px}
+footer p{color:#fff;font-size:10px}
+footer section{float:left;margin-left:20px;margin-top:16px}
+footer section li{color:#fff;line-height:1.5em;color:#fff;line-height:1.5em}
+footer section a{color:#fff;font-size:11px;color:#fff;font-size:11px}
+footer section .adp-logo{position:absolute;top:25px;left:30px;position:absolute;top:25px;left:30px}
+footer section .cart-logo{position:absolute;top:20px;left:135px;position:absolute;top:20px;left:135px}
+footer section .about-us-heading{background:#233e5f url(../img/bg-about-us.png) no-repeat;width:166px;height:30px;background:#233e5f url(../img/bg-about-us.png) no-repeat;width:166px;height:30px}
+footer section .services-heading{background:#233e5f url(../img/bg-heading-services.jpg) no-repeat;width:166px;height:30px;background:#233e5f url(../img/bg-heading-services.jpg) no-repeat;width:166px;height:30px}
+footer section .wtgi-heading{background:#233e5f url(../img/bg-heading-ways-tgi.png) no-repeat;width:166px;height:30px;background:#233e5f url(../img/bg-heading-ways-tgi.png) no-repeat;width:166px;height:30px}
+footer section.services-spacing{padding-left:64px;padding-left:64px}
+footer section.wtgi-spacing{padding-left:54px;padding-left:54px}
+footer section.cert-logos-spacing{padding-left:30px;margin-top:0;position:relative;padding-left:30px;margin-top:0;position:relative}
+.bottom-well-margin{margin-top:0}
+.well{margin-bottom:0;border:1px solid #fff;padding:20px}
+.well-bottom{margin-top:20px;background-color:#0a2646}
+.well-bottom h6,.well-bottom li,.well-bottom li a{color:#fff}
+.well-bottom li{list-style:disc}
+.well-bottom h6{background-color:#091f37;padding-top:10px;padding-bottom:10px;font-size:14px;text-align:center}
+.footer-border{border-right:1px solid #091f37}
+.cert-logos{margin-top:16px}
+ul.side-nav{margin-left:-40px;margin-top:20px}
+ul.side-nav li{background:#ff681f;background:linear-gradient(#ff681f,#f59211);padding:10px;margin-bottom:1px}
+ul.side-nav li a{color:#fff;font-size:16px}
+ul{margin-bottom:0}
+h2.get-involved-sidebar-heading{font-size:18px;color:#337ab7}
+h2.success-stories-sidebar-heading{font-size:18px;color:#337ab7}
+.sidebar-background{box-shadow:-3px 3px 10px rgba(0,0,0,0.2);padding:0}
+.bottom-donate-button{margin-bottom:20px}
+.ir{display:block;text-indent:-999em;overflow:hidden;background-repeat:no-repeat;text-align:left;direction:ltr}
+.hidden{display:none;visibility:hidden}
+.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
+.visuallyhidden.focusable:active{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}
+.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}
+.invisible{visibility:hidden}
+.clearfix{zoom:1}
+.clearfix:before{content:"\0020";display:block;height:0;overflow:hidden}
+.clearfix:after{content:"\0020";display:block;height:0;overflow:hidden;clear:both}
+@media(min-width:768px){.sub-menu{display:none;position:absolute;background:#e7e7e7;padding:10px 10px;width:150px}
+.sub-menu a{background-color:#e7e7e7}
+li:hover .sub-menu{display:block}
+}.sub-menu li{margin-bottom:10px;list-style:none}
+@media(max-width:1200px){.search-container{display:none}
+.aside-box p{width:100%}
+}@media(max-width:767px){img.facebook-icon{display:none}
+.donate{display:none}
+.sidebar-background{display:none}
+.footer-border{border-right:0}
+.cert-logos{text-align:center;padding:0}
+.get-involved{display:inline}
+.aside-box p{width:80%}
+.facebook-button{display:none}
+li{text-align:center}
+.navbar-nav>li{display:block}
+.navbar-nav>li>a{width:50%;margin:auto}
+}@media screen and (max-width:535px){.facebook-icon{display:none}
+}@media print{*{background:transparent !important;color:black !important;text-shadow:none !important;-webkit-filter:none !important;filter:none !important;-ms-filter:none !important}
+a{color:#444 !important;text-decoration:underline}
+a:visited{color:#444 !important;text-decoration:underline}
+a[href]:after{content:" (" attr(href) ")"}
+abbr[title]:after{content:" (" attr(title) ")"}
+.ir a:after{content:""}
+a[href^="javascript:"]:after{content:""}
+a[href^="#"]:after{content:""}
+pre{border:1px solid #999;page-break-inside:avoid}
+blockquote{border:1px solid #999;page-break-inside:avoid}
+thead{display:table-header-group}
+tr{page-break-inside:avoid}
+img{page-break-inside:avoid}
+@page{margin:.5cm}
+p{orphans:3;widows:3}
+h2{orphans:3;widows:3;page-break-after:avoid}
+h3{orphans:3;widows:3;page-break-after:avoid}
+}
+/*# sourceMappingURL=style.css.map */
